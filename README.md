@@ -42,3 +42,8 @@ No arquivo **`.env`**, configure as credenciais do banco de dados:
 📂 DB_DATABASE=nome_do_banco
 👤 DB_USERNAME=usuario
 🔑 DB_PASSWORD=senha
+```
+## Resumo
+<img width="1920" height="1080" alt="Laravel" src="https://github.com/user-attachments/assets/10046932-64c0-414a-ac59-1d2ab28d0c37" />
+
+
