@@ -12,35 +12,50 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
         <style>
          body {
-            font-family: 'Instrument Sans', sans-serif;
-            background-color: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f0ff;
             text-align: center;
             padding-top: 100px;
         }
 
+        .content-box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
         h1 {
-            color: #0d6efd;
-            font-weight: 600;
+            color: #6f42c1; /* Roxo */
+            font-weight: 700;
             margin-bottom: 30px;
         }
 
-        .btn-custom {
-            padding: 10px 20px;
+        .btn-purple {
+            background-color: #6f42c1;
+            border: none;
+            color: white;
+            padding: 12px 25px;
             font-size: 18px;
             border-radius: 8px;
+            transition: 0.3s;
         }
 
-        a {
-            text-decoration: none;
+        .btn-purple:hover {
+            background-color: #d66fedff;
+            transform: scale(1.05);
+            color: #ffffffff;
         }
         </style>
     </head>
 <body>
     <h1>Olá, Mundo!</h1>
 
-    <a href="{{ route('users.create')}}" class="btn btn-primary btn-custom"> Cadastrar </a>
+    <a href="{{ route('users.create')}}" class="btn btn-purple"> Cadastrar </a>
 </body>
 </html>
